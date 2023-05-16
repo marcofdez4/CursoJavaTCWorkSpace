@@ -1,0 +1,12 @@
+package ejercicio15.view;
+
+import ejercicio15.model.Usuario;
+
+public class Vista {
+
+	public void mostrarIndex(Usuario usuario)
+	{
+		System.out.println("Bienvenido " + usuario.getNombre());
+		System.out.println("Correo electronico: " + usuario.getCorreo());
+	}
+}

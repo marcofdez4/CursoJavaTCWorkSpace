@@ -1,0 +1,49 @@
+package ejercicio13;
+
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Scanner;
+
+import org.json.JSONObject;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+
+public class Programa {
+	
+	public static void main(String[] args) {
+
+		try {
+			URL endpoint = new URL("https://pokeapi.co/api/v2/pokemon/machoke");
+			HttpURLConnection con = (HttpURLConnection) endpoint.openConnection();
+			con.connect(); 
+			int tiempoDeRespuesta = con.getResponseCode();
+			if (tiempoDeRespuesta != 200)
+			{
+				throw new RuntimeException("HttpResponseCode" + tiempoDeRespuesta);			
+			}
+			else
+			{
+				InputStreamReader input = new InputStreamReader(con.getInputStream());
+				
+//				String informacionSinCorchetes = informacion.toString().replace("[", "").replace("]", "");
+				
+
+				Gson datag = new Gson();
+				JsonElement datae = datag.fromJson(input, JsonElement.class);
+				JsonObject data = datae.getAsJsonObject();
+//				urlGatito = new URL(data.getString("url"));
+				String nombre = data.get("species").getAsJsonObject().get("name").getAsString();
+				String tipo = data.get("species").getAsJsonObject().get("name").getAsString();
+				String peso = data.get("weight").getAsString();
+				
+				System.out.println(nombre);
+				System.out.println(peso);
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+}

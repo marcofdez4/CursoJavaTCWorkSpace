@@ -1,0 +1,5 @@
+package ejercicio15.model;
+
+public class Usuario {
+
+}

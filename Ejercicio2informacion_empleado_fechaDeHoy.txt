@@ -1,0 +1,2 @@
+ Nombre: Marco Apellido: Fernandez Ciudad: Sevilla Edad: 24 Posicion: informatico Salario: 1200.0 Fecha de ingreso: 1999-02-28 Salario neto: 960.0
+ Nombre: Pablo Apellido: Calle Ciudad: Sevilla Edad: 24 Posicion: ingeniero Salario: 1300.0 Fecha de ingreso: 1999-06-28 Salario neto: 1040.0
