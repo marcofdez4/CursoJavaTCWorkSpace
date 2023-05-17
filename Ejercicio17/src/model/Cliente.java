@@ -27,6 +27,7 @@ public class Cliente {
 		this.fechaNacimiento = fechaNacimiento;
 		this.contrasena = contrasena;
 		this.listaProductos = new ArrayList<>();
+		this.listaProductos.add(new Producto());
 	}
 
 	public String getNombre() {
