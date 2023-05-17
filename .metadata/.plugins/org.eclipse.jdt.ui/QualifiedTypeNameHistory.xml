@@ -1,20 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="clase1.Empleado"/>
-    <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfo"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="javax.management.openmbean.OpenMBeanAttributeInfoSupport"/>
-    <fullyQualifiedTypeName name="ejercicio2.ISalario"/>
-    <fullyQualifiedTypeName name="ejercicio2.Empleado"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
-    <fullyQualifiedTypeName name="java.net.URL"/>
-    <fullyQualifiedTypeName name="java.awt.Color"/>
-    <fullyQualifiedTypeName name="org.json.JSONArray"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="ejercicioIntegrador1.Vuelo"/>
     <fullyQualifiedTypeName name="ejercicioIntegrador1.TipoPasaje"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
@@ -51,12 +36,28 @@
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="model.ArtistaI"/>
     <fullyQualifiedTypeName name="model.Artista"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.Ingrediente"/>
     <fullyQualifiedTypeName name="model.Comida"/>
+    <fullyQualifiedTypeName name="ejercicio15.model.Usuario"/>
+    <fullyQualifiedTypeName name="ejercicio15.view.Vista"/>
+    <fullyQualifiedTypeName name="ejercicio15.controller.Controlador"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="controller.Controlador"/>
+    <fullyQualifiedTypeName name="view.Vista"/>
+    <fullyQualifiedTypeName name="model.Vuelo"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JTable"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+    <fullyQualifiedTypeName name="javax.swing.JScrollPane"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableCellRenderer"/>
+    <fullyQualifiedTypeName name="java.awt.Component"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
 </qualifiedTypeNameHistroy>
