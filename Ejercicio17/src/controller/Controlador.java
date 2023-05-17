@@ -3,7 +3,6 @@ package controller;
 import java.util.List;
 
 import model.Cliente;
-import model.Producto;
 import view.Vista;
 
 public class Controlador {

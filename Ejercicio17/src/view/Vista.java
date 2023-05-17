@@ -173,7 +173,8 @@ public class Vista {
 							try {
 								String[] fec = fechaText.split("-");
 								LocalDate nacimi = LocalDate.of(Integer.valueOf(fec[2]), Integer.valueOf(fec[1]), Integer.valueOf(fec[0]));
-								Cliente client = new Cliente(nombreText, apellidoText, ciudadText, correoText, salarioText, nacimi, contrasenaText);
+								Double salarioD = Double.valueOf(salarioText);
+								Cliente client = new Cliente(nombreText, apellidoText, ciudadText, correoText, salarioD, nacimi, contrasenaText);
 								clientes.add(client);
 								System.out.println("Te has registrado con exito!");
 								productos(client);
@@ -181,10 +182,10 @@ public class Vista {
 							} catch (Exception ex) {
 								JFrame fail2 = new JFrame();
 								fail2.setTitle("Registro incorrecto incorrecto");
-								fail2.setSize(300,100);
+								fail2.setSize(400,100);
 								fail2.setLayout(null);
-								JLabel texto2 = new JLabel("Registro incorrecto, rellena la fecha bien");
-								texto2.setBounds(10,10,300,30);
+								JLabel texto2 = new JLabel("Registro incorrecto, rellena la fecha bien o el salario bien");
+								texto2.setBounds(10,10,400,30);
 								fail2.add(texto2);
 								fail2.setVisible(true);
 							}
@@ -230,10 +231,6 @@ public class Vista {
 
 			ventanaPrincipal.add(product);
 		}
-		
-		
-
-		
 		ventanaPrincipal.setVisible(true);
 	}
 	

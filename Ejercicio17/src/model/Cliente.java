@@ -10,13 +10,13 @@ public class Cliente {
 	private String apellido;
 	private String ciudad;
 	private String email;
-	private String salario;
+	private Double salario;
 	private LocalDate fechaNacimiento;
 	private String contrasena;
 	
 	private List<Producto> listaProductos;
 
-	public Cliente(String nombre, String apellido, String ciudad, String email, String salario,
+	public Cliente(String nombre, String apellido, String ciudad, String email, Double salario,
 			LocalDate fechaNacimiento, String contrasena) {
 		super();
 		this.nombre = nombre;
@@ -61,11 +61,11 @@ public class Cliente {
 		this.email = email;
 	}
 
-	public String getSalario() {
+	public Double getSalario() {
 		return salario;
 	}
 
-	public void setSalario(String salario) {
+	public void setSalario(Double salario) {
 		this.salario = salario;
 	}
 
