@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="PruebaExamen"/>
 			<item value="EjercicioIntegrador2"/>
 			<item value="Ejercicio14"/>
 			<item value="Ejercicio13"/>
@@ -14,6 +15,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="PruebaExamen"/>
 			<item value="EjercicioIntegrador2"/>
 			<item value="Ejercicio14"/>
 			<item value="Ejercicio13"/>
