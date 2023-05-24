@@ -63,7 +63,7 @@ public class Programa {
 				bw.write("\nSu estado es: "+cli.getEstado());
 				String diasAtraso = cli.diasAtraso()>0?cli.diasAtraso().toString():"no procede";
 				bw.write("\nDias de atraso del cliente: "+diasAtraso);
-				bw.write("\nEstado del prestamo: "+cli.estadoPrestamo());
+				bw.write("\nEstado del prestamo: "+cli.estadoPrestamo().toString().replace("_", " "));
 				bw.write("\nDinero adeudado: "+cli.dineroAdeudado());
 				String clienteMoroso = cli.clienteMoroso()?"Si":"No";
 				bw.write("\n¿Es el cliente moroso?: "+clienteMoroso);
