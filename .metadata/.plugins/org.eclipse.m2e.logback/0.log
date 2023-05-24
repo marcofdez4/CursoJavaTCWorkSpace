@@ -2253,3 +2253,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.fasterxml
 2023-05-23 11:37:42,434 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-23 11:37:42,436 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mafernandezgon\Desktop\workspace_eclipse\PruebaExamen2\src\main\resources
 2023-05-23 11:37:42,437 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-23 11:37:42,438 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\mafernandezgon\Desktop\workspace_eclipse\PruebaExamen2\src\test\resources

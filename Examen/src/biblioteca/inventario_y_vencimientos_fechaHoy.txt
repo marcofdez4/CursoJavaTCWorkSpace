@@ -1,0 +1,33 @@
+PROGRAMA DE BIBLIOTECA NACIONAL
+
+----------------------------------------------------------------
+
+Informacion del prestamo al cliente con dni '12345678'
+Libro: 'El teorema de Fermat' escrito por 'Simon Singh'
+La solicitud del prestamo fue el 2023-05-01 y la fecha de entrega estipulada el 2023-05-10
+Su estado es: PRESTADO
+Dias de atraso del cliente: 14
+Estado del prestamo: VENCIDO
+Dinero adeudado: 4
+¿Es el cliente moroso?: Si
+----------------------------------------------------------------
+
+Informacion del prestamo al cliente con dni '23545789'
+Libro: 'Correspondencia' escrito por 'Sigmon Freud'
+La solicitud del prestamo fue el 2023-05-10 y la fecha de entrega estipulada el 2023-05-20
+Su estado es: Prestado
+Dias de atraso del cliente: 4
+Estado del prestamo: EN_REGLA
+Dinero adeudado: 0
+¿Es el cliente moroso?: No
+----------------------------------------------------------------
+
+Informacion del prestamo al cliente con dni '3557789'
+Libro: 'Letras de amor' escrito por 'Gustavo Vargas'
+La solicitud del prestamo fue el 2023-05-18 y la fecha de entrega estipulada el 2023-05-28
+Su estado es: Prestado
+Dias de atraso del cliente: no procede
+Estado del prestamo: EN_REGLA
+Dinero adeudado: 0
+¿Es el cliente moroso?: No
+----------------------------------------------------------------
