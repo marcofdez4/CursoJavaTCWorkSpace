@@ -41,7 +41,7 @@ public class Programa {
 			sc.close();
 		}
 		catch (FileNotFoundException e) {
-			e.printStackTrace();
+			System.out.println("no se pudo acceder al archivo de entrada");
 		}
 		try {
 			String rutaSalida = "src\\biblioteca\\inventario_y_vencimientos_fechaHoy.txt";
@@ -72,8 +72,7 @@ public class Programa {
 			bw.close();
 			System.out.println("Programa finalizado con exito, tenga un buen dia");
 		}  catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.out.println("error en la escritura del archivo de salida");
 		}
 	}
 }
