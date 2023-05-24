@@ -8,7 +8,7 @@ La solicitud del prestamo fue el 2023-05-01 y la fecha de entrega estipulada el 
 Su estado es: PRESTADO
 Dias de atraso del cliente: 14
 Estado del prestamo: VENCIDO
-Dinero adeudado: 4
+Dinero adeudado: 14
 ¿Es el cliente moroso?: Si
 ----------------------------------------------------------------
 
@@ -17,9 +17,9 @@ Libro: 'Correspondencia' escrito por 'Sigmon Freud'
 La solicitud del prestamo fue el 2023-05-10 y la fecha de entrega estipulada el 2023-05-20
 Su estado es: Prestado
 Dias de atraso del cliente: 4
-Estado del prestamo: EN REGLA
-Dinero adeudado: 0
-¿Es el cliente moroso?: No
+Estado del prestamo: VENCIDO
+Dinero adeudado: 4
+¿Es el cliente moroso?: Si
 ----------------------------------------------------------------
 
 Informacion del prestamo al cliente con dni '3557789'

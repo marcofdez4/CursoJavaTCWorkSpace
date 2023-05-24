@@ -58,7 +58,7 @@ public class Cliente extends Persona implements ICliente{
 
 	@Override
 	public Estado estadoPrestamo() {
-		if(this.diasAtraso()<=10) {
+		if(this.diasAtraso()<=0) {
 			return Estado.EN_REGLA;
 		}
 		return Estado.VENCIDO;
@@ -67,8 +67,8 @@ public class Cliente extends Persona implements ICliente{
 	@Override
 	public Integer dineroAdeudado() {
 		Integer dinero = 0;
-		if(this.diasAtraso()>10) {
-			dinero = this.diasAtraso()-10;
+		if(this.diasAtraso()>0) {
+			dinero = this.diasAtraso();
 		}
 		return dinero;
 	}
